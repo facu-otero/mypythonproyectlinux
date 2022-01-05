@@ -19,5 +19,5 @@ from proyecto1.views import saluda
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Saludo',saluda)
+    path('saludo',saluda)
 ]
